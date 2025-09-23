@@ -1,0 +1,185 @@
+{
+  "Global": {
+    "company_full_name": "北京译帆科技信息咨询有限公司",
+    "company_short_name": "译帆科技",
+    "section_map": {
+      "service": {
+        "title": ""
+      }
+    }
+  },
+  "Components": {
+    "Header": {
+      "menu": [
+        {
+          "name": "关于",
+          "href": "#about"
+        },
+        {
+          "name": "服务",
+          "href": "#services"
+        },
+        {
+          "name": "专长",
+          "href": "#expertise"
+        },
+        {
+          "name": "案例",
+          "href": "#cases"
+        },
+        {
+          "name": "联系",
+          "href": "#contact"
+        }
+      ]
+    },
+    "Footer": {
+      "copyright": "© 2024 译帆科技. 保留所有权利。"
+    },
+    "Hero": {
+      "slogans": ["译路同行", "共赢未来"],
+      "description": "专业的中英文翻译服务，助力全球沟通与商业成功。",
+      "button": "获取报价"
+    },
+    "About": {
+      "title": "关于译帆科技",
+      "brief": "您值得信赖的专业语言服务伙伴",
+      "description_list": [
+        "北京译帆科技信息咨询有限公司是总部位于北京的语言供应商，秉承\"专业、优质、高效、守信\"的理念，提供专业的口笔译、语言咨询及国际传播服务。",
+        "公司专职译员、兼职译员、外审专家约120人，均毕业于海内外高翻学院。我们的语言服务涵盖30个语种，可满足国内外客户提出的各类语言服务需求。",
+        "凭借卓越的服务质量，我们更多家上市公司及知名企业的语言供应商，为客户提供优质的跨文化沟通和全球业务成功支持。"
+      ],
+      "highlight_stats": [
+        {
+          "value": "120+",
+          "label": "专业译员"
+        },
+        {
+          "value": "30+",
+          "label": "语种数"
+        },
+        {
+          "value": "10+",
+          "label": "年专业经验"
+        },
+        {
+          "value": "1000+",
+          "label": "完成项目"
+        }
+      ],
+      "labels": [
+        {
+          "keyword": "高效交付",
+          "class_name": "bg-blue-100 text-blue-700"
+        },
+        {
+          "keyword": "优质服务",
+          "class_name": "bg-orange-100 text-orange-700"
+        },
+
+        {
+          "keyword": "严格保密",
+          "class_name": "bg-blue-100 text-blue-700"
+        }
+      ]
+    },
+    "Services": {
+      "title": "我们的服务",
+      "brief": "为您的业务需求量身定制的全面语言解决方案",
+      "main_service_list": [
+        {
+          "title": "笔译",
+          "description": "我们提供多行业笔译服务，包括但不限于公证、法律、学术、能源、财经、互联网、生物医药、机械制造、文娱旅游",
+          "icon": "Languages"
+        },
+        {
+          "title": "口译",
+          "description": "提供交替传译、同声传译、陪同口译、耳语传译等场景的高质量口译支持",
+          "icon": "Mic"
+        },
+        {
+          "title": "语言咨询及国际化传播",
+          "description": "我们会全球客户提供语言咨询及国际化传播服务，内容涵盖本地化传播策略、品牌及网站建设",
+          "icon": "Globe"
+        }
+      ],
+      "service_advantage": {
+        "title": "为什么选择译帆科技",
+        "brief": "五大核心优势，让我们在语言服务行业中脱颖而出",
+        "authorization_code": "北京市翻译专用章备案号：11010524558G6",
+        "advantage_list": [
+          {
+            "title": "全面",
+            "description": "提供口笔译、审校、编辑、DTP及本地化工程一体化服务",
+            "icon": "CheckCircle"
+          },
+          {
+            "title": "权威",
+            "description": "翻译文件可加盖北京市备案的中英文翻译专用章",
+            "icon": "Award"
+          },
+          {
+            "title": "专业",
+            "description": "严格遵守行业行为规范及相关质量标准",
+            "icon": "Users"
+          },
+          {
+            "title": "高效",
+            "description": "根据客户要求提供专题化项目管理服务，保证服务需求快速响应",
+            "icon": "Zap"
+          },
+          {
+            "title": "高质",
+            "description": "使用语料对齐工具、文字识别工具、质量保证工具、排版软件、工程处理软件和计算机辅助翻译工具等，对项目质量进行严格把控",
+            "icon": "Trophy"
+          }
+        ]
+      }
+    },
+    "Expertise": {
+      "title": "ESG与CSR报告专业翻译",
+      "description_list": [
+        "我们专业翻译环境、社会和治理（ESG）报告以及企业社会责任（CSR）文件。我们的专业语言学家深谙不同市场的专业术语和监管要求。",
+        "凭借对可持续发展框架、金融法规和公司治理标准的深入了解，我们确保您的报告在跨文化传播中保持其完整性和影响力。"
+      ],
+      "highlight_stats": [
+        {
+          "title": "专用术语库",
+          "value": "丰富"
+        },
+        {
+          "title": "评级机构方法论",
+          "value": "10+"
+        },
+        {
+          "title": "行业领域",
+          "value": "30+"
+        }
+      ]
+    },
+    "Cases": {},
+    "Contact": {
+      "title": "联系我们",
+      "brief": "准备好跨越语言障碍了吗？让我们开始对话。",
+      "information": {
+        "list": [
+          {
+            "label": "办公地址",
+            "value": "北京市怀柔区开放路113号南四层409室",
+            "icon": "MapPin"
+          },
+          {
+            "label": "电话",
+            "value": "+86 15801109105",
+            "icon": "Phone"
+          },
+          {
+            "label": "邮箱",
+            "value": "fiona@yifanti.cn",
+            "icon": "Mail"
+          }
+        ]
+      }
+    }
+  }
+}
