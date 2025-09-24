@@ -1,4 +1,6 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
+
 import Header from "./components/layout/Header";
 import Footer from "./components/layout/Footer";
 import Hero from "./components/sections/Hero";
@@ -7,7 +9,6 @@ import Services from "./components/sections/Services";
 import Expertise from "./components/sections/Expertise";
 import Cases from "./components/sections/Cases";
 import Contact from "./components/sections/Contact";
-import { useTranslation } from "react-i18next";
 
 export default function App() {
   const { t, i18n } = useTranslation();

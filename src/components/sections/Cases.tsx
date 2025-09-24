@@ -1,4 +1,6 @@
-import React from "react";
+import React, { useState } from "react";
+import { Button } from "../ui/button";
+import { ImageWithFallback } from "../ui/image-with-fallback";
 
 interface CasesProps {
   data: any;
@@ -6,45 +8,100 @@ interface CasesProps {
 }
 
 export default function Cases({ data, language }: CasesProps) {
-  const clients = [
-    { name: "Baidu", logo: "百度" },
-    { name: "ChinaGas", logo: "中燃" },
-    { name: "TechCorp", logo: "科技" },
-    { name: "GlobalTrade", logo: "全球贸易" },
-    { name: "Innovation Co", logo: "创新" },
-    { name: "FutureTech", logo: "未来科技" },
-  ];
+  const [selectedIndustry, setSelectedIndustry] = useState("automotive");
+
+  const currentIndustry =
+    data.industries.find((ind) => ind.id === selectedIndustry) ||
+    data.industries[0];
 
   return (
     <section id="cases" className="py-20 bg-gray-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-            {language === "EN"
-              ? "Trusted by Leading Companies"
-              : "领先企业的信赖选择"}
+            {data.title}
           </h2>
-          <p className="text-xl text-gray-600">
-            {language === "EN"
-              ? "We are proud to serve industry leaders across various sectors"
-              : "我们很荣幸为各行业领军企业提供服务"}
+          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+            {data.brief}
           </p>
         </div>
 
-        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-8">
-          {clients.map((client, index) => (
-            <div
-              key={index}
-              className="bg-white rounded-2xl p-6 shadow-md hover:shadow-lg transition-shadow flex items-center justify-center"
+        {/* Industry Tabs */}
+        <div className="flex flex-wrap justify-center gap-3 mb-12">
+          {data.industries.map((industry) => (
+            <button
+              key={industry.id}
+              onClick={() => setSelectedIndustry(industry.id)}
+              className={`px-6 py-3 rounded-full text-sm font-medium transition-colors duration-50 ${
+                selectedIndustry === industry.id
+                  ? "bg-gradient-to-r from-blue-600 to-blue-500 text-white shadow-lg"
+                  : "bg-white text-gray-600 hover:bg-gray-100 border border-gray-200"
+              }`}
             >
-              <div className="text-center">
-                <div className="text-2xl font-bold text-gray-800 mb-1">
-                  {client.logo}
-                </div>
-                <div className="text-sm text-gray-500">{client.name}</div>
-              </div>
-            </div>
+              {industry.name}
+            </button>
           ))}
+        </div>
+
+        {/* Industry Showcase */}
+        <div className="bg-white rounded-3xl shadow-xl overflow-hidden">
+          <div className="grid lg:grid-cols-2 gap-0">
+            {/* Content Side */}
+            {/* <div className="p-8 lg:p-12 flex flex-col justify-center"> */}
+            <div className="p-8 lg:p-12 flex flex-col justify-between min-h-522 lg:min-h-610">
+              <div className="mb-6">
+                <div className="inline-flex items-center px-4 py-2 bg-blue-100 text-blue-700 rounded-full text-sm font-medium mb-4">
+                  {currentIndustry.name}
+                  {language === "EN" ? " Sector" : " 行业"}
+                </div>
+                <h3 className="text-2xl md:text-3xl font-bold text-gray-900 mb-6">
+                  {currentIndustry.title}
+                </h3>
+                <p className="text-gray-600 text-lg leading-relaxed mb-8">
+                  {currentIndustry.description}
+                </p>
+              </div>
+
+              {/* Client Logos */}
+              {currentIndustry.clients && (
+                <div className="space-y-4">
+                  <h4 className="text-lg font-semibold text-gray-900">
+                    {language === "EN" ? "Featured Clients" : "合作客户"}
+                  </h4>
+                  <div className="grid grid-cols-2 gap-4">
+                    {currentIndustry.clients.map((client, index) => (
+                      <div
+                        key={index}
+                        className="bg-gray-50 rounded-xl p-4 text-center"
+                      >
+                        <div className="text-base font-medium text-gray-800">
+                          {client.name}
+                        </div>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              )}
+
+              {/* <div className="mt-8">
+                <Button className="bg-gradient-to-r from-blue-600 to-blue-500 hover:from-blue-700 hover:to-blue-600 text-white px-8 py-3 rounded-xl border-0 transform hover:scale-105 transition-all duration-200">
+                  {language === "EN" ? "Learn More" : "了解更多"}
+                </Button>
+              </div> */}
+            </div>
+
+            {/* Image Side */}
+            <div className="relative h-64 lg:h-full min-h-[400px]">
+              {currentIndustry.image && (
+                <ImageWithFallback
+                  src={currentIndustry.image}
+                  alt={currentIndustry.name}
+                  className="absolute inset-0 w-full h-full object-cover"
+                />
+              )}
+              <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent"></div>
+            </div>
+          </div>
         </div>
       </div>
     </section>
