@@ -68,14 +68,14 @@ export default function Services({ data }: ServicesProps) {
                 <div
                   key={index}
                   className={`${
-                    index % 2 === 0
+                    index % 2 === 1
                       ? "from-blue-50 to-blue-100"
                       : "from-orange-50 to-orange-100"
                   } flex flex-col items-center text-center p-6 bg-gradient-to-br rounded-2xl`}
                 >
                   <div
                     className={`${
-                      index % 2 === 0
+                      index % 2 === 1
                         ? "from-blue-600 to-blue-500"
                         : "from-orange-600 to-orange-500"
                     } w-14 h-14 bg-gradient-to-br from-blue-600 to-blue-500 rounded-2xl flex items-center justify-center mb-4`}

@@ -21,12 +21,7 @@ export default function Contact({ data, language }: ContactProps) {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">{data.title}</h2>
-          <p className="text-xl opacity-90">
-            {data.brief}
-            {language === "EN"
-              ? "Ready to bridge the language gap? Let's start the conversation."
-              : "准备好跨越语言障碍了吗？让我们开始对话。"}
-          </p>
+          {/* <p className="text-xl opacity-90">{data.brief}</p> */}
         </div>
         <div className="grid lg:grid-cols-2 gap-12">
           {/* Left: Contact Information */}

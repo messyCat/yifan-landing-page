@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Button } from "../ui/button";
+import { useTranslation } from "react-i18next";
 import { ImageWithFallback } from "../ui/image-with-fallback";
 
 interface CasesProps {
@@ -8,6 +8,7 @@ interface CasesProps {
 }
 
 export default function Cases({ data, language }: CasesProps) {
+  const { t } = useTranslation();
   const [selectedIndustry, setSelectedIndustry] = useState("automotive");
 
   const currentIndustry =
@@ -52,7 +53,7 @@ export default function Cases({ data, language }: CasesProps) {
               <div className="mb-6">
                 <div className="inline-flex items-center px-4 py-2 bg-blue-100 text-blue-700 rounded-full text-sm font-medium mb-4">
                   {currentIndustry.name}
-                  {language === "EN" ? " Sector" : " 行业"}
+                  {" " + t("Global.sector")}
                 </div>
                 <h3 className="text-2xl md:text-3xl font-bold text-gray-900 mb-6">
                   {currentIndustry.title}

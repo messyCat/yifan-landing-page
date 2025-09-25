@@ -1,7 +1,8 @@
 {
   "Global": {
     "company_full_name": "Beijing Yifan Science and Information Consulting Co,.Ltd",
-    "company_short_name": "YifanTech"
+    "company_short_name": "YifanTech",
+    "sector": "Sector"
   },
   "Components": {
     "Header": {
@@ -79,246 +80,249 @@
       ]
     },
     "Services": {
-      "title": "我们的服务",
-      "brief": "为您的业务需求量身定制的全面语言解决方案",
+      "title": "Our Services",
+      "brief": "Comprehensive language solutions tailored to your business needs",
       "main_service_list": [
         {
-          "title": "笔译",
-          "description": "我们提供多行业笔译服务，包括但不限于公证、法律、学术、能源、财经、互联网、生物医药、机械制造、文娱旅游",
+          "title": "Translation",
+          "description": "Provide industry-specific translation solutions, including but not limited to Notary, Legal, Academic, Energy, Finance, Internet, Biomedical, Machinery Manufacturing, Entertainment and Tourism.",
           "icon": "Languages"
         },
         {
-          "title": "口译",
-          "description": "提供交替传译、同声传译、陪同口译、耳语传译等场景的高质量口译支持",
+          "title": "Interpreting",
+          "description": "Provide high-quality interpreting services, including consecutive interpreting, simultaneous interpreting, escort interpreting, and whisper interpreting.",
           "icon": "Mic"
         },
         {
-          "title": "语言咨询及国际化传播",
-          "description": "我们会全球客户提供语言咨询及国际化传播服务，内容涵盖本地化传播策略、品牌及网站建设",
+          "title": "Language Consulting and International Communication",
+          "description": "Provide language consultation and international communication services to our global clients, covering localized communication strategies, brand building and website design.",
           "icon": "Globe"
         }
       ],
       "service_advantage": {
-        "title": "为什么选择译帆科技",
-        "brief": "五大核心优势，让我们在语言服务行业中脱颖而出",
-        "authorization_code": "北京市翻译专用章备案号：11010524558G6",
+        "title": "Why Choose Us?",
+        "brief": "Five core advantages that set us apart in the language services industry",
+        "authorization_code": "Beijing Municipal Public Security Bureau: No. 1101052455866",
         "advantage_list": [
           {
-            "title": "全面",
-            "description": "提供口笔译、审校、编辑、DTP及本地化工程一体化服务",
+            "title": "Comprehensive",
+            "description": "Integrated service package including translation, interpreting, editing, DTP and localization",
             "icon": "CheckCircle"
           },
           {
-            "title": "权威",
-            "description": "翻译文件可加盖北京市备案的中英文翻译专用章",
+            "title": "Authoritative",
+            "description": "Certified translation services with a specialized translation seal from Beijing Municipal Public Security Bureau",
             "icon": "Award"
           },
           {
-            "title": "专业",
-            "description": "严格遵守行业行为规范及相关质量标准",
+            "title": "Professional",
+            "description": "In strict compliance with codes of conduct and relevant industry quality standards",
             "icon": "Users"
           },
           {
-            "title": "高效",
-            "description": "根据客户要求提供专题化项目管理服务，保证服务需求快速响应",
+            "title": "Efficient",
+            "description": "Dedicated project management in fast response to customer requirements",
             "icon": "Zap"
           },
           {
-            "title": "高质",
-            "description": "使用语料对齐工具、文字识别工具、质量保证工具、排版软件、工程处理软件和计算机辅助翻译工具等，对项目质量进行严格把控",
+            "title": "High-Quality",
+            "description": "Strict quality monitoring for projects by deploying alignment tools, OCR tools, QA tools, DTP software, engineering processing software, and CAT tools",
             "icon": "Trophy"
           }
         ]
       }
     },
     "Expertise": {
-      "title": "ESG与CSR报告专业翻译",
+      "title": "ESG & CSR Report Expertise",
       "description_list": [
-        "我们专业翻译环境、社会和治理（ESG）报告以及企业社会责任（CSR）文件。我们的专业语言学家深谙不同市场的专业术语和监管要求。",
-        "凭借对可持续发展框架、金融法规和公司治理标准的深入了解，我们确保您的报告在跨文化传播中保持其完整性和影响力。"
+        "We specialize in translating Environmental, Social, and Governance (ESG) reports and Corporate Social Responsibility (CSR) documents. Our expert linguists understand the nuanced terminology and regulatory requirements across different markets.",
+        "With deep knowledge of sustainability frameworks, financial regulations, and corporate governance standards, we ensure your reports maintain their integrity and impact across cultural boundaries."
       ],
       "highlight_stats": [
         {
-          "title": "专用术语库",
-          "value": "丰富"
+          "title": "Dedicated Termbase",
+          "value": "Comprehensive"
         },
         {
-          "title": "评级机构方法论",
+          "title": "Rating Agency Methodology",
           "value": "10+"
         },
         {
-          "title": "行业领域",
+          "title": "Industries",
           "value": "30+"
         }
       ]
     },
     "Cases": {
-      "title": "领先企业的信赖选择",
-      "brief": "行业领先的ESG解决方案，为不同行业量身定制的专业ESG翻译和传播服务",
+      "title": "Trusted by Leading Enterprises",
+      "brief": "Industry-Leading ESG solutions, specialized ESG translation and communication services tailored for different industries",
       "industries": [
         {
-          "name": "通讯/互联网",
           "id": "internet",
-          "title": "科技平台ESG传播",
-          "description": "为互联网巨头提供ESG报告和可持续发展传播服务，专注于数字责任、数据隐私和跨国际市场的平台治理。",
+          "name": "Internet",
+          "title": "ESG Communication for Tech Platforms",
+          "description": "Providing ESG reporting and sustainability communication services for internet giants, with a focus on digital responsibility, data privacy, and platform governance across international markets.",
           "image": "images/cases/industries/internet.jpg",
           "clients": [
             {
-              "name": "百度"
+              "name": "Baidu"
             }
           ]
         },
         {
-          "name": "汽车",
           "id": "automotive",
-          "title": "汽车可持续发展传播",
-          "description": "协助汽车制造商在全球市场传播其可持续发展举措、碳中和目标和供应链责任。2023年\"理想汽车\"MSCI ESG评级拿到新能源汽车行业唯一个AAA评级。",
+          "name": "Automotive",
+          "title": "Sustainability Communication for the Automotive Industry",
+          "description": "Supporting automotive manufacturers in communicating their sustainability initiatives, carbon neutrality goals, and supply chain responsibility in global markets. In 2023, 'Li Auto' received the only AAA MSCI ESG rating among new energy vehicle companies.",
           "image": "images/cases/industries/automotive-lixiang.jpg",
           "clients": [
             {
-              "name": "理想汽车"
+              "name": "Li Auto"
             }
           ]
         },
         {
-          "name": "消费品",
           "id": "consumer_goods",
-          "title": "消费品行业可持续发展传播",
-          "description": "支持消费品品牌在全球市场建立负责任的供应链形象，重点传播绿色生产、包装减塑和公平贸易等实践，助力企业在ESG/CSR报告中展现社会与环境价值。",
+          "name": "Consumer Goods",
+          "title": "Sustainability Communication for the Consumer Goods Industry",
+          "description": "Helping consumer brands build a responsible supply chain image in global markets, with a focus on green manufacturing, plastic reduction in packaging, and fair trade practices, enabling companies to showcase social and environmental value in their ESG/CSR reports.",
           "image": "images/cases/industries/consumer-goods.jpg",
           "clients": [
             {
-              "name": "重庆啤酒"
+              "name": "Chongqing Beer"
             },
             {
-              "name": "茅台"
+              "name": "Moutai"
             },
             {
-              "name": "安踏"
+              "name": "ANTA"
             }
           ]
         },
         {
-          "name": "医疗",
           "id": "healthcare",
-          "title": "医疗健康行业ESG传播",
-          "description": "为医疗企业提供ESG报告和责任传播服务，涵盖医药研发透明度、患者权益保护、可及性与公平性，强化行业在社会责任和公共健康领域的影响力。",
+          "name": "Healthcare",
+          "title": "ESG Communication in the Healthcare Industry",
+          "description": "Providing ESG reporting and responsibility communication services for healthcare companies, covering pharmaceutical R&D transparency, patient rights protection, accessibility and equity, and strengthening the industry’s influence in social responsibility and public health.",
           "image": "images/cases/industries/medical.jpg",
           "clients": [
             {
-              "name": "荣昌生物"
+              "name": "RemeGen"
             },
             {
-              "name": "信达生物"
+              "name": "Innovent Biologics"
             },
             {
-              "name": "康龙化成"
+              "name": "Pharmaron"
             },
             {
-              "name": "先声药业"
+              "name": "Simcere"
             }
           ]
         },
         {
-          "name": "教育",
           "id": "education",
-          "title": "教育行业社会责任传播",
-          "description": "协助教育机构展示其在教育公平、数字化学习和人才培养方面的责任举措，通过ESG/CSR报告传递教育对社会可持续发展的贡献。",
+          "name": "Education",
+          "title": "Social Responsibility Communication in the Education Industry",
+          "description": "Supporting educational institutions in showcasing their responsibility initiatives in educational equity, digital learning, and talent cultivation, and highlighting education’s contribution to sustainable social development through ESG/CSR reports.",
           "image": "images/cases/industries/education.jpg",
           "clients": [
             {
-              "name": "港科大（广州）"
+              "name": "HKUST (Guangzhou)"
             }
           ]
         },
         {
-          "name": "咨询",
           "id": "consulting",
-          "title": "咨询行业责任传播",
-          "description": "为咨询与专业服务机构打造ESG/CSR传播方案，突出其在绿色转型、企业责任管理和客户可持续战略支持上的价值。",
+          "name": "Consulting",
+          "title": "Responsibility Communication in the Consulting Industry",
+          "description": "Designing ESG/CSR communication strategies for consulting and professional service firms, emphasizing their value in green transition, corporate responsibility management, and client sustainability strategy support.",
           "image": "images/cases/industries/consulting.jpg",
           "clients": [
             {
-              "name": "安永"
+              "name": "EY"
             }
           ]
         },
         {
-          "name": "房地产",
           "id": "real_estate",
-          "title": "房地产行业ESG传播",
-          "description": "支持房地产企业在绿色建筑、低碳运营和社区共建等维度进行透明披露，提升企业ESG/CSR报告在国际投资者和社会公众中的可信度。",
+          "name": "Real Estate",
+          "title": "ESG Communication in the Real Estate Industry",
+          "description": "Supporting real estate companies in transparent disclosure of green building, low-carbon operations, and community co-creation, enhancing the credibility of their ESG/CSR reports among international investors and the public.",
           "image": "images/cases/industries/real-estate.jpg",
           "clients": [
             {
-              "name": "龙地"
+              "name": "Longdi"
             }
           ]
         },
         {
-          "name": "能源",
           "id": "energy",
-          "title": "能源行业可持续发展传播",
-          "description": "协助能源企业展示其在减排、清洁能源转型和能源安全保障方面的战略与成果，打造兼顾经济与环境责任的ESG/CSR传播体系。",
+          "name": "Energy",
+          "title": "Sustainability Communication in the Energy Industry",
+          "description": "Helping energy companies demonstrate their strategies and achievements in emission reduction, clean energy transition, and energy security, building an ESG/CSR communication framework that balances economic and environmental responsibility.",
           "image": "images/cases/industries/energy.jpg",
           "clients": [
             {
-              "name": "新奥能源"
+              "name": "ENN Energy"
             },
             {
-              "name": "中国燃气"
+              "name": "China Gas"
             }
           ]
         },
         {
-          "name": "制造业/工业/原材料",
           "id": "industrial",
-          "title": "制造业ESG、工业企业可持续传播",
-          "description": "为制造业客户提供ESG/CSR报告和传播服务，聚焦绿色工艺、智能制造与员工福祉，强化企业在全球可持续价值链中的竞争力。支持工业企业披露其在节能减排、循环经济和技术创新上的责任举措，帮助其ESG/CSR报告在国际市场中传递长期价值。协助原材料企业在资源利用、环境保护和供应链合规方面建立责任形象，通过ESG/CSR报告彰显其在全球产业链的可持续承诺。",
+          "name": "Manufacturing / Industry / Raw Materials",
+          "title": "ESG and Sustainability Communication for Manufacturing, Industrial, and Raw Materials Companies",
+          "description": "Providing ESG/CSR reporting and communication services for manufacturing clients, focusing on green processes, smart manufacturing, and employee well-being to strengthen competitiveness in the global sustainable value chain. Supporting industrial companies in disclosing their initiatives on energy conservation, emission reduction, circular economy, and technological innovation to convey long-term value in ESG/CSR reports on the international stage. Assisting raw materials enterprises in building a responsible image in resource utilization, environmental protection, and supply chain compliance, demonstrating their sustainable commitments in the global industrial chain through ESG/CSR reporting.",
           "image": "images/cases/industries/industry.jpg",
           "clients": [
             {
-              "name": "中国中铝"
+              "name": "CHALCO"
             },
             {
-              "name": "新宙邦"
+              "name": "Capchem"
             },
             {
-              "name": "深圳国际"
+              "name": "Shenzhen International"
             }
           ]
         }
       ]
     },
     "Contact": {
-      "title": "联系我们",
-      "brief": "准备好跨越语言障碍了吗？让我们开始对话。",
+      "title": "Contact Us",
       "information": {
         "list": [
           {
-            "label": "办公地址",
-            "value": "北京市怀柔区开放路113号南四层409室",
+            "label": "Office Address",
+            "value": "Room 409, South 4th Floor, No. 113 Kaifang Road, Huairou District, Beijing, China",
             "icon": "MapPin"
           },
           {
-            "label": "电话",
+            "label": "Tel",
             "value": "+86 15801109105",
             "icon": "Phone"
           },
           {
-            "label": "邮箱",
+            "label": "Email",
             "value": "fiona@yifanti.cn",
             "icon": "Mail"
           }
         ]
       },
       "wechat_infomation": {
-        "title": "微信联系我们",
-        "desc": "扫描二维码添加我们的微信，享受即时沟通服务。我们随时为您的翻译需求提供专业帮助。",
-        "name_prefix": "微信号：",
+        "title": "Connect on WeChat",
+        "desc": "Scan the QR code to add us on WeChat for instant communication. We're here to help with all your translation needs.",
+        "name_prefix": "WeChat ID：",
         "name": "Fiona",
         "qr_code_image": "images/contact/wechat.png",
-        "features": ["即时报价咨询", "文件分享与协作", "实时项目进度更新"]
+        "features": [
+          "Instant quote requests",
+          "File sharing & collaboration",
+          "Real-time project updates"
+        ]
       }
     }
   }

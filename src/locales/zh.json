@@ -2,11 +2,7 @@
   "Global": {
     "company_full_name": "北京译帆科技信息咨询有限公司",
     "company_short_name": "译帆科技",
-    "section_map": {
-      "service": {
-        "title": ""
-      }
-    }
+    "sector": "行业"
   },
   "Components": {
     "Header": {
@@ -162,7 +158,7 @@
       "brief": "行业领先的ESG解决方案，为不同行业量身定制的专业ESG翻译和传播服务",
       "industries": [
         {
-          "name": "通讯/互联网",
+          "name": "互联网",
           "id": "internet",
           "title": "科技平台ESG传播",
           "description": "为互联网巨头提供ESG报告和可持续发展传播服务，专注于数字责任、数据隐私和跨国际市场的平台治理。",
@@ -297,7 +293,6 @@
     },
     "Contact": {
       "title": "联系我们",
-      "brief": "准备好跨越语言障碍了吗？让我们开始对话。",
       "information": {
         "list": [
           {
