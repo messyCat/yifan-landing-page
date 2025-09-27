@@ -11,8 +11,7 @@ import Cases from "./components/sections/Cases";
 import Contact from "./components/sections/Contact";
 
 export default function App() {
-  const { t, i18n } = useTranslation();
-  const language = i18n.language === "en" ? "EN" : "ZH";
+  const { t } = useTranslation();
 
   return (
     <div className="min-h-screen bg-white">
@@ -20,18 +19,9 @@ export default function App() {
       <Hero data={t("Components.Hero", { returnObjects: true })} />
       <About data={t("Components.About", { returnObjects: true })} />
       <Services data={t("Components.Services", { returnObjects: true })} />
-      <Expertise
-        data={t("Components.Expertise", { returnObjects: true })}
-        language={language}
-      />
-      <Cases
-        data={t("Components.Cases", { returnObjects: true })}
-        language={language}
-      />
-      <Contact
-        data={t("Components.Contact", { returnObjects: true })}
-        language={language}
-      />
+      <Expertise data={t("Components.Expertise", { returnObjects: true })} />
+      <Cases data={t("Components.Cases", { returnObjects: true })} />
+      <Contact data={t("Components.Contact", { returnObjects: true })} />
       <Footer data={t("Components.Footer", { returnObjects: true })} />
     </div>
   );

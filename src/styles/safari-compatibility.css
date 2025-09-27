@@ -1,0 +1,298 @@
+/* Safari兼容性修复 - 为不支持oklch()的Safari版本提供回退颜色 */
+
+/* 只在不支持oklch的浏览器中应用这些回退值 */
+@supports not (color: oklch(0.5 0.1 180)) {
+  :root, :host {
+    /* Orange colors fallback */
+    --color-orange-50: #fff7ed;
+    --color-orange-100: #ffedd5;
+    --color-orange-500: #f97316;
+    --color-orange-600: #ea580c;
+    --color-orange-700: #c2410c;
+    
+    /* Blue colors fallback */
+    --color-blue-50: #eff6ff;
+    --color-blue-100: #dbeafe;
+    --color-blue-300: #93c5fd;
+    --color-blue-400: #60a5fa;
+    --color-blue-500: #3b82f6;
+    --color-blue-600: #2563eb;
+    --color-blue-700: #1d4ed8;
+    
+    /* Gray colors fallback */
+    --color-gray-50: #f9fafb;
+    --color-gray-100: #f3f4f6;
+    --color-gray-200: #e5e7eb;
+    --color-gray-400: #9ca3af;
+    --color-gray-600: #4b5563;
+    --color-gray-700: #374151;
+    --color-gray-800: #1f2937;
+    --color-gray-900: #111827;
+    
+    /* Green colors fallback */
+    --color-green-600: #16a34a;
+    
+    /* Black and White */
+    --color-black: #000000;
+    --color-white: #ffffff;
+  }
+
+  /* Light theme fallbacks */
+  :root {
+    --background: #ffffff;
+    --foreground: #0f172a;
+    --card: #ffffff;
+    --card-foreground: #0f172a;
+    --popover: #ffffff;
+    --popover-foreground: #0f172a;
+    --primary: #030213;
+    --primary-foreground: #ffffff;
+    --secondary: #f1f5f9;
+    --secondary-foreground: #030213;
+    --muted: #f1f5f9;
+    --muted-foreground: #64748b;
+    --accent: #f1f5f9;
+    --accent-foreground: #030213;
+    --destructive: #dc2626;
+    --destructive-foreground: #ffffff;
+    --border: rgba(0, 0, 0, 0.1);
+    --input: transparent;
+    --ring: #64748b;
+    --sidebar: #f8fafc;
+    --sidebar-foreground: #0f172a;
+    --sidebar-primary: #030213;
+    --sidebar-primary-foreground: #f8fafc;
+    --sidebar-accent: #f1f5f9;
+    --sidebar-accent-foreground: #0f172a;
+    --sidebar-border: #e2e8f0;
+    --sidebar-ring: #64748b;
+  }
+
+  /* Dark theme fallbacks */
+  .dark {
+    --background: #0f172a;
+    --foreground: #f8fafc;
+    --card: #0f172a;
+    --card-foreground: #f8fafc;
+    --popover: #0f172a;
+    --popover-foreground: #f8fafc;
+    --primary: #f8fafc;
+    --primary-foreground: #1e293b;
+    --secondary: #1e293b;
+    --secondary-foreground: #f8fafc;
+    --muted: #1e293b;
+    --muted-foreground: #94a3b8;
+    --accent: #1e293b;
+    --accent-foreground: #f8fafc;
+    --destructive: #dc2626;
+    --destructive-foreground: #f8fafc;
+    --border: #1e293b;
+    --input: #1e293b;
+    --ring: #475569;
+    --sidebar: #1e293b;
+    --sidebar-foreground: #f8fafc;
+    --sidebar-primary: #3b82f6;
+    --sidebar-primary-foreground: #f8fafc;
+    --sidebar-accent: #1e293b;
+    --sidebar-accent-foreground: #f8fafc;
+    --sidebar-border: #1e293b;
+    --sidebar-ring: #475569;
+  }
+  
+  /* 修复渐变在旧Safari中的问题 */
+  .bg-gradient-to-br {
+    background-image: linear-gradient(to bottom right, var(--tw-gradient-stops)) !important;
+  }
+
+  .bg-gradient-to-r {
+    background-image: linear-gradient(to right, var(--tw-gradient-stops)) !important;
+  }
+
+  .bg-gradient-to-t {
+    background-image: linear-gradient(to top, var(--tw-gradient-stops)) !important;
+  }
+  
+  /* 确保颜色混合回退在旧Safari中工作 */
+  .border-white\/20 {
+    border-color: rgba(255, 255, 255, 0.2);
+  }
+  
+  .bg-white\/10 {
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+  
+  .bg-white\/20 {
+    background-color: rgba(255, 255, 255, 0.2);
+  }
+  
+  .bg-white\/95 {
+    background-color: rgba(255, 255, 255, 0.95);
+  }
+}
+
+/* 
+ * 修复Safari对现代媒体查询语法的兼容性问题
+ * 旧版Safari可能不支持新的range语法，使用传统的min-width语法作为回退
+ */
+
+/* 48rem breakpoint (md:) - 传统语法 */
+@media (min-width: 48rem) {
+  .md\:flex {
+    display: flex !important;
+  }
+  
+  .md\:hidden {
+    display: none !important;
+  }
+  
+  .md\:grid-cols-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+  }
+  
+  .md\:grid-cols-3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
+  }
+  
+  .md\:flex-row {
+    flex-direction: row !important;
+  }
+}
+
+/* 64rem breakpoint (lg:) - 传统语法 */
+@media (min-width: 64rem) {
+  .lg\:grid-cols-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+  }
+  
+  .lg\:grid-cols-3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
+  }
+}
+
+/* 40rem breakpoint (sm:) - 传统语法 */
+@media (min-width: 40rem) {
+  .sm\:px-6 {
+    padding-inline: calc(var(--spacing) * 6) !important;
+  }
+}
+
+/* 
+ * 渐变色兜底回退方案 - 为不支持现代CSS渐变的Safari提供纯色回退
+ */
+
+/* Hero区域背景渐变回退 */
+.bg-gradient-to-br.from-blue-600.to-blue-500 {
+  background: #2563eb !important; /* 使用主要蓝色作为回退 */
+  background: linear-gradient(135deg, #2563eb 0%, #3b82f6 100%) !important;
+}
+
+/* Contact区域背景渐变回退 */
+.bg-gradient-to-br.from-blue-600.to-blue-500 {
+  background: #2563eb !important;
+  background: linear-gradient(135deg, #2563eb 0%, #3b82f6 100%) !important;
+}
+
+/* Header Logo渐变文字回退 */
+.bg-gradient-to-r.from-blue-600.to-blue-500.bg-clip-text.text-transparent {
+  background: #2563eb !important;
+  background: linear-gradient(90deg, #2563eb 0%, #3b82f6 100%) !important;
+  -webkit-background-clip: text !important;
+  background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+  color: transparent !important;
+}
+
+/* 如果bg-clip-text完全不支持，则使用纯色 */
+@supports not (-webkit-background-clip: text) {
+  .bg-gradient-to-r.from-blue-600.to-blue-500.bg-clip-text.text-transparent {
+    background: none !important;
+    color: #2563eb !important;
+    -webkit-text-fill-color: initial !important;
+  }
+}
+
+/* Footer Logo渐变文字回退 */
+.bg-gradient-to-r.from-blue-400.to-blue-300.bg-clip-text.text-transparent {
+  background: #60a5fa !important;
+  background: linear-gradient(90deg, #60a5fa 0%, #93c5fd 100%) !important;
+  -webkit-background-clip: text !important;
+  background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+  color: transparent !important;
+}
+
+@supports not (-webkit-background-clip: text) {
+  .bg-gradient-to-r.from-blue-400.to-blue-300.bg-clip-text.text-transparent {
+    background: none !important;
+    color: #60a5fa !important;
+    -webkit-text-fill-color: initial !important;
+  }
+}
+
+/* Services按钮渐变回退 - 只针对按钮元素 */
+button.bg-gradient-to-r.from-blue-600.to-blue-500,
+.inline-flex.bg-gradient-to-r.from-blue-600.to-blue-500 {
+  background: #2563eb !important;
+  background: linear-gradient(90deg, #2563eb 0%, #3b82f6 100%) !important;
+}
+
+/* Services图标容器渐变回退 - 只针对容器div */
+div.bg-gradient-to-br.from-blue-600.to-blue-500 {
+  background: #2563eb !important;
+  background: linear-gradient(135deg, #2563eb 0%, #3b82f6 100%) !important;
+}
+
+/* Orange渐变回退 */
+div.bg-gradient-to-br.from-orange-600.to-orange-500 {
+  background: #ea580c !important;
+  background: linear-gradient(135deg, #ea580c 0%, #f97316 100%) !important;
+}
+
+/* 浅色背景渐变回退 */
+div.bg-gradient-to-br.from-blue-50.to-orange-50 {
+  background: #eff6ff !important;
+  background: linear-gradient(135deg, #eff6ff 0%, #fff7ed 100%) !important;
+}
+
+div.bg-gradient-to-br.from-blue-50.to-blue-100 {
+  background: #eff6ff !important;
+  background: linear-gradient(135deg, #eff6ff 0%, #dbeafe 100%) !important;
+}
+
+div.bg-gradient-to-br.from-orange-50.to-orange-100 {
+  background: #fff7ed !important;
+  background: linear-gradient(135deg, #fff7ed 0%, #ffedd5 100%) !important;
+}
+
+/* 渐变遮罩回退 */
+.bg-gradient-to-t.from-black\/20.to-transparent {
+  background: rgba(0, 0, 0, 0.1) !important;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.2) 0%, transparent 100%) !important;
+}
+
+/* hover渐变回退 */
+.hover\:from-blue-700:hover {
+  background: #1d4ed8 !important;
+}
+
+.hover\:to-blue-600:hover {
+  background: #2563eb !important;
+}
+
+/* 确保重要的渐变在最坏情况下至少有颜色显示 */
+@supports not (background: linear-gradient(45deg, red, blue)) {
+  .bg-gradient-to-br,
+  .bg-gradient-to-r,
+  .bg-gradient-to-t {
+    background: #2563eb !important; /* 默认使用主蓝色 */
+  }
+  
+  .from-orange-600,
+  .from-orange-500 {
+    background: #ea580c !important;
+  }
+  
+  .from-blue-50 {
+    background: #eff6ff !important;
+  }
+}

@@ -2,10 +2,9 @@ import React from "react";
 
 interface ExpertiseProps {
   data: any;
-  language: string;
 }
 
-export default function Expertise({ data, language }: ExpertiseProps) {
+export default function Expertise({ data }: ExpertiseProps) {
   return (
     <section id="expertise" className="py-20 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

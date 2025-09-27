@@ -9,10 +9,9 @@ import { DynamicIcon } from "../ui/dynamic-icon";
 import { ImageWithFallback } from "../ui/image-with-fallback";
 interface ContactProps {
   data: any;
-  language: string;
 }
 
-export default function Contact({ data, language }: ContactProps) {
+export default function Contact({ data }: ContactProps) {
   return (
     <section
       id="contact"

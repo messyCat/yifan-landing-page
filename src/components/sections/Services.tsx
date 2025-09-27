@@ -78,7 +78,7 @@ export default function Services({ data }: ServicesProps) {
                       index % 2 === 1
                         ? "from-blue-600 to-blue-500"
                         : "from-orange-600 to-orange-500"
-                    } w-14 h-14 bg-gradient-to-br from-blue-600 to-blue-500 rounded-2xl flex items-center justify-center mb-4`}
+                    } w-14 h-14 bg-gradient-to-br rounded-2xl flex items-center justify-center mb-4`}
                   >
                     <DynamicIcon
                       name={advantage.icon}

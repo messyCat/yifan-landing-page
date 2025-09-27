@@ -4,10 +4,9 @@ import { ImageWithFallback } from "../ui/image-with-fallback";
 
 interface CasesProps {
   data: any;
-  language: string;
 }
 
-export default function Cases({ data, language }: CasesProps) {
+export default function Cases({ data }: CasesProps) {
   const { t } = useTranslation();
   const [selectedIndustry, setSelectedIndustry] = useState("automotive");
 
@@ -67,7 +66,7 @@ export default function Cases({ data, language }: CasesProps) {
               {currentIndustry.clients && (
                 <div className="space-y-4">
                   <h4 className="text-lg font-semibold text-gray-900">
-                    {language === "EN" ? "Featured Clients" : "合作客户"}
+                    {data.partners}
                   </h4>
                   <div className="grid grid-cols-2 gap-4">
                     {currentIndustry.clients.map((client, index) => (

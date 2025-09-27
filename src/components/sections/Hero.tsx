@@ -27,8 +27,11 @@ export default function Hero({ data }: HeroProps) {
         <p className="text-xl md:text-2xl mb-8 opacity-90">
           {data.description}
         </p>
-        <Button className="px-8 py-4 text-lg bg-orange-500 hover:bg-orange-600 border-0 rounded-xl shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-200">
-          {data.button}
+        <Button
+          asChild
+          className="px-8 py-4 text-lg bg-orange-500 hover:bg-orange-600 border-0 rounded-xl shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-200"
+        >
+          <a href="#contact">{data.button}</a>
         </Button>
       </div>
     </section>
