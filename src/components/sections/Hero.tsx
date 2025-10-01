@@ -8,7 +8,7 @@ interface HeroProps {
 export default function Hero({ data }: HeroProps) {
   return (
     <section
-      id="home"
+      id="hero"
       className="relative min-h-screen flex items-center justify-center"
     >
       <div

@@ -1,0 +1,37 @@
+/* 多语言差异化样式 */
+/* body.lang-[lang_code] 类名 */
+
+/* 中文样式 */
+body.lang-zh {
+  
+}
+
+/* 英文样式 */
+body.lang-en {
+  
+}
+
+/* 具体组件的多语言样式示例 */
+/* HERO 组件 */
+body.lang-zh #hero h1 {
+  /* 中文标题字体加大一号：从 text-4xl/text-6xl 提升到 text-5xl/text-7xl */
+  font-size: var(--text-5xl); /* 移动端：text-5xl */
+  line-height: var(--text-5xl--line-height);
+}
+
+body.lang-zh #hero h1>div{
+    /* 3->5 */
+    margin-bottom: calc(var(--spacing) * 5);
+}
+
+@media (min-width: 768px) {
+  body.lang-zh #hero h1 {
+    font-size: var(--text-7xl); /* 桌面端：text-7xl */
+    line-height: var(--text-7xl--line-height);
+  }
+}
+
+body.lang-en #hero h1 {
+  /* 英文保持原有大小：text-4xl/text-6xl */
+  /* 使用 Tailwind 默认值，不需要额外设置 */
+}

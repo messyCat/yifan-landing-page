@@ -1,6 +1,10 @@
-import React from 'react';
-import { ChevronDown, Menu, X } from 'lucide-react';
-import { useTranslation } from 'react-i18next';
+import React from "react";
+import { ChevronDown, Menu, X } from "lucide-react";
+import {
+  changeLanguage,
+  getCurrentLanguage,
+  getLanguageDisplayName,
+} from "../../locales";
 
 interface HeaderControlsProps {
   isMenuOpen: boolean;
@@ -15,18 +19,17 @@ interface HeaderControlsProps {
     // ...添加更多语言
 ]; */
 
-export default function HeaderControls({ 
-  isMenuOpen, 
-  setIsMenuOpen, 
-  className = '' 
+export default function HeaderControls({
+  isMenuOpen,
+  setIsMenuOpen,
+  className = "",
 }: HeaderControlsProps) {
-  const { i18n } = useTranslation();
-  
-  const currentLanguage = i18n.language === 'en' ? 'EN' : '中文';
-  
+  const currentLang = getCurrentLanguage();
+  const currentLanguage = getLanguageDisplayName();
+
   const handleLanguageChange = () => {
-    const newLanguage = i18n.language === 'en' ? 'zh' : 'en';
-    i18n.changeLanguage(newLanguage);
+    const newLanguage = currentLang === "en" ? "zh" : "en";
+    changeLanguage(newLanguage);
   };
 
   return (
