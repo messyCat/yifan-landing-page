@@ -26,11 +26,14 @@ export default function About({ data }: AboutProps) {
               <div className="grid grid-cols-2 gap-6">
                 {data.highlight_stats.map((stat: any, index: number) => (
                   <div className="text-center" key={index + stat.label}>
-                    <div
+                    {/* <div
                       className={`text-3xl font-bold mb-2 ${
                         index % 2 === 0 ? "text-blue-600" : "text-orange-600"
                       }`}
                     >
+                      {stat.value}
+                    </div> */}
+                    <div className={`text-3xl font-bold mb-2 text-blue-600`}>
                       {stat.value}
                     </div>
                     <div className="text-gray-600 text-sm">{stat.label}</div>

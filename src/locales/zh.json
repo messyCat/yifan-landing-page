@@ -8,7 +8,7 @@
     "Header": {
       "menu": [
         {
-          "name": "关于",
+          "name": "公司简介",
           "href": "#about"
         },
         {
@@ -16,7 +16,7 @@
           "href": "#services"
         },
         {
-          "name": "专长",
+          "name": "ESG、CSR及可持续发展",
           "href": "#expertise"
         },
         {
@@ -24,7 +24,7 @@
           "href": "#cases"
         },
         {
-          "name": "联系",
+          "name": "联系我们",
           "href": "#contact"
         }
       ]
@@ -55,8 +55,8 @@
           "label": "语种数"
         },
         {
-          "value": "5+",
-          "label": "年专业经验"
+          "value": "30+",
+          "label": "行业领域"
         },
         {
           "value": "1000+",
@@ -65,23 +65,22 @@
       ],
       "labels": [
         {
+          "keyword": "严格保密",
+          "class_name": "bg-orange-100 text-orange-700"
+        },
+        {
           "keyword": "高效交付",
           "class_name": "bg-blue-100 text-blue-700"
         },
         {
           "keyword": "优质服务",
           "class_name": "bg-orange-100 text-orange-700"
-        },
-
-        {
-          "keyword": "严格保密",
-          "class_name": "bg-blue-100 text-blue-700"
         }
       ]
     },
     "Services": {
       "title": "我们的服务",
-      "brief": "为您的业务需求量身定制的全面语言解决方案",
+      "brief": "为您量身定制全面的语言服务方案",
       "main_service_list": [
         {
           "title": "笔译",
@@ -90,12 +89,12 @@
         },
         {
           "title": "口译",
-          "description": "提供交替传译、同声传译、陪同口译、耳语传译等场景的高质量口译支持",
+          "description": "我们提供交替传译、同声传译、陪同口译、耳语传译等场景的高质量口译支持",
           "icon": "Mic"
         },
         {
           "title": "语言咨询及国际化传播",
-          "description": "我们会全球客户提供语言咨询及国际化传播服务，内容涵盖本地化传播策略、品牌及网站建设",
+          "description": "我们向全球客户提供语言咨询及国际化传播服务，内容涵盖本地化传播策略、品牌及网站建设",
           "icon": "Globe"
         }
       ],
@@ -105,26 +104,31 @@
         "authorization_code": "北京市翻译专用章备案号：11010524558G6",
         "advantage_list": [
           {
+            "id": "Comprehensive",
             "title": "全面",
             "description": "提供口笔译、审校、编辑、DTP及本地化工程一体化服务",
             "icon": "CheckCircle"
           },
           {
+            "id": "Authoritative",
             "title": "权威",
             "description": "翻译文件可加盖北京市备案的中英文翻译专用章",
             "icon": "Award"
           },
           {
+            "id": "Professional",
             "title": "专业",
             "description": "严格遵守行业行为规范及相关质量标准",
             "icon": "Users"
           },
           {
+            "id": "Efficient",
             "title": "高效",
             "description": "根据客户要求提供专题化项目管理服务，保证服务需求快速响应",
             "icon": "Zap"
           },
           {
+            "id": "High-Quality",
             "title": "高质",
             "description": "使用语料对齐工具、文字识别工具、质量保证工具、排版软件、工程处理软件和计算机辅助翻译工具等，对项目质量进行严格把控",
             "icon": "Trophy"
@@ -133,15 +137,15 @@
       }
     },
     "Expertise": {
-      "title": "ESG与CSR报告专业翻译",
+      "title": "ESG、CSR及可持续发展报告翻译",
       "description_list": [
-        "我们专业翻译环境、社会和治理（ESG）报告以及企业社会责任（CSR）文件。我们的专业语言学家深谙不同市场的专业术语和监管要求。",
-        "凭借对可持续发展框架、金融法规和公司治理标准的深入了解，我们确保您的报告在跨文化传播中保持其完整性和影响力。"
+        "我们专注于环境、社会和治理（ESG）报告、企业社会责任（CSR）以及可持续发展报告翻译。我们的译者深谙不同监管机构及评级机构对公司可持续发展表现的关注点，根据相应的披露要求选择专业的术语表达，保证报告的专业性，助力公司实现相关领域全面、合规的披露",
+        "文化力是第一影响力。通过专业的翻译服务，我们致力于实现公司在可持续发展披露，助力其树立行业标杆，建立行业影响力。"
       ],
       "highlight_stats": [
         {
           "title": "专用术语库",
-          "value": "丰富"
+          "value": "10万+"
         },
         {
           "title": "评级机构方法论",
@@ -154,7 +158,7 @@
       ]
     },
     "Cases": {
-      "title": "领先企业的信赖选择",
+      "title": "多类行业客户的信赖选择",
       "brief": "行业领先的ESG解决方案，为不同行业量身定制的专业ESG翻译和传播服务",
       "partners": "合作客户",
       "industries": [

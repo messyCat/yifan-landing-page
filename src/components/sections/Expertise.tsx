@@ -23,11 +23,14 @@ export default function Expertise({ data }: ExpertiseProps) {
             <div className="grid grid-cols-2 gap-6">
               {data.highlight_stats.map((stats: any, index: number) => (
                 <div className="text-center" key={index}>
-                  <div
+                  {/* <div
                     className={`${
                       index % 2 === 0 ? "text-blue-600" : "text-orange-600"
                     } text-3xl font-bold mb-2`}
                   >
+                    {stats.value}
+                  </div> */}
+                  <div className={`text-blue-600 text-3xl font-bold mb-2`}>
                     {stats.value}
                   </div>
                   <div className="text-gray-600">{stats.title}</div>

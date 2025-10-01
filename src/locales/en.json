@@ -55,8 +55,8 @@
           "label": "Languages"
         },
         {
-          "value": "5+",
-          "label": "Years Of Professional Experience"
+          "value": "30+",
+          "label": "Industries"
         },
         {
           "value": "1000+",
@@ -65,23 +65,22 @@
       ],
       "labels": [
         {
+          "keyword": "Strict Confidentiality",
+          "class_name": "bg-orange-100 text-orange-700"
+        },
+        {
           "keyword": "Efficient Project Delivery",
           "class_name": "bg-blue-100 text-blue-700"
         },
         {
           "keyword": "High-Quality Service",
           "class_name": "bg-orange-100 text-orange-700"
-        },
-
-        {
-          "keyword": "Strict Confidentiality",
-          "class_name": "bg-blue-100 text-blue-700"
         }
       ]
     },
     "Services": {
       "title": "Our Services",
-      "brief": "Comprehensive language solutions tailored to your business needs",
+      "brief": "Comprehensive language solutions tailored to your needs",
       "main_service_list": [
         {
           "title": "Translation",
@@ -105,26 +104,31 @@
         "authorization_code": "Beijing Municipal Public Security Bureau: No. 1101052455866",
         "advantage_list": [
           {
+            "id": "Comprehensive",
             "title": "Comprehensive",
             "description": "Integrated service package including translation, interpreting, editing, DTP and localization",
             "icon": "CheckCircle"
           },
           {
+            "id": "Authoritative",
             "title": "Authoritative",
             "description": "Certified translation services with a specialized translation seal from Beijing Municipal Public Security Bureau",
             "icon": "Award"
           },
           {
+            "id": "Professional",
             "title": "Professional",
             "description": "In strict compliance with codes of conduct and relevant industry quality standards",
             "icon": "Users"
           },
           {
+            "id": "Efficient",
             "title": "Efficient",
             "description": "Dedicated project management in fast response to customer requirements",
             "icon": "Zap"
           },
           {
+            "id": "High-Quality",
             "title": "High-Quality",
             "description": "Strict quality monitoring for projects by deploying alignment tools, OCR tools, QA tools, DTP software, engineering processing software, and CAT tools",
             "icon": "Trophy"
@@ -133,15 +137,15 @@
       }
     },
     "Expertise": {
-      "title": "ESG & CSR Report Expertise",
+      "title": "ESG, CSR and Sustainability Reports Expertise",
       "description_list": [
-        "We specialize in translating Environmental, Social, and Governance (ESG) reports and Corporate Social Responsibility (CSR) documents. Our expert linguists understand the nuanced terminology and regulatory requirements across different markets.",
-        "With deep knowledge of sustainability frameworks, financial regulations, and corporate governance standards, we ensure your reports maintain their integrity and impact across cultural boundaries."
+        "We specialize in the translation of Environmental, Social, and Governance (ESG) reports, Corporate Social Responsibility (CSR) reports, and Sustainability reports. Our translators are well-versed in the focus areas of various regulatory bodies and rating agencies regarding corporate sustainability performance. By selecting terminology in line with relevant disclosure requirements, we ensure accuracy and professionalism, helping companies achieve comprehensive and compliant disclosure in these fields.",
+        "Culture is the foremost driver of influence. Through our professional translation services, we are committed to enabling companies to excel in sustainability disclosure, helping them set industry benchmarks and build lasting influence within their sector."
       ],
       "highlight_stats": [
         {
           "title": "Dedicated Termbase",
-          "value": "Comprehensive"
+          "value": "100,000+"
         },
         {
           "title": "Rating Agency Methodology",
@@ -154,7 +158,7 @@
       ]
     },
     "Cases": {
-      "title": "Trusted by Leading Enterprises",
+      "title": "Trusted by Clients Across Multiple Industries",
       "brief": "Industry-Leading ESG solutions, specialized ESG translation and communication services tailored for different industries",
       "partners": "Featured Clients",
       "industries": [
