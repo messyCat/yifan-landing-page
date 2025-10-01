@@ -8,7 +8,7 @@
     "Header": {
       "menu": [
         {
-          "name": "About",
+          "name": "About Us",
           "href": "#about"
         },
         {
@@ -16,7 +16,7 @@
           "href": "#services"
         },
         {
-          "name": "Expertise",
+          "name": "ESG/CSR/Sustainability",
           "href": "#expertise"
         },
         {
@@ -24,7 +24,7 @@
           "href": "#cases"
         },
         {
-          "name": "Contact",
+          "name": "Contact Us",
           "href": "#contact"
         }
       ]
@@ -34,7 +34,7 @@
     },
     "Hero": {
       "slogans": ["The Partner for All", "All for the Future!"],
-      "description": "Professional translation services that empower global communication and business success.",
+      "description": "Professional language services that empower global communication and business success.",
       "button": "Get a Quote"
     },
     "About": {
@@ -43,7 +43,7 @@
       "description_list": [
         "Headquartered in Beijing, Beijing Yifan Science and Information Consulting Co,.Ltd is a professional provider of translation, interpretation, language consulting and international communication services, which include proofreading, editing, localization and equipment leasing.",
         "We boast a broad network of translators, interpreters, proofreaders, and language experts, totaling about 120, who have graduated from prestigious universities in China and beyond. Our services cover about 30 languages, enabling us to meet wide-ranging language demands of our Chinese and overseas clients.",
-        "By virtue of our excellent service quality, we are honored to provide services to listed companies and big names across over 20 sectors."
+        "By virtue of our excellent service quality, we are honored to provide services to listed companies and big names across over 30 sectors."
       ],
       "highlight_stats": [
         {
@@ -56,7 +56,7 @@
         },
         {
           "value": "30+",
-          "label": "Industries"
+          "label": "Sectors"
         },
         {
           "value": "1000+",
@@ -84,23 +84,23 @@
       "main_service_list": [
         {
           "title": "Translation",
-          "description": "Provide industry-specific translation solutions, including but not limited to Notary, Legal, Academic, Energy, Finance, Internet, Biomedical, Machinery Manufacturing, Entertainment and Tourism.",
+          "description": "We Provide industry-specific translation solutions, including but not limited to Notary, Legal, Academic, Energy, Finance, Internet, Biomedical, Machinery Manufacturing, Entertainment and Tourism.",
           "icon": "Languages"
         },
         {
           "title": "Interpreting",
-          "description": "Provide high-quality interpreting services, including consecutive interpreting, simultaneous interpreting, escort interpreting, and whisper interpreting.",
+          "description": "We Provide high-quality interpreting services, including consecutive interpreting, simultaneous interpreting, escort interpreting, and whisper interpreting.",
           "icon": "Mic"
         },
         {
           "title": "Language Consulting and International Communication",
-          "description": "Provide language consultation and international communication services to our global clients, covering localized communication strategies, brand building and website design.",
+          "description": "We Provide language consultation and international communication services to our global clients, covering localized communication strategies, brand building and website design.",
           "icon": "Globe"
         }
       ],
       "service_advantage": {
         "title": "Why Choose Us?",
-        "brief": "Five core advantages that set us apart in the language services industry",
+        "brief": "Five core advantages that earn us a leading position among language vendors",
         "authorization_code": "Beijing Municipal Public Security Bureau: No. 1101052455866",
         "advantage_list": [
           {
@@ -152,7 +152,7 @@
           "value": "10+"
         },
         {
-          "title": "Industries",
+          "title": "Sectors",
           "value": "30+"
         }
       ]
