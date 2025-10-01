@@ -115,7 +115,7 @@ export default function Services({ data }: ServicesProps) {
             <div>
               {/* First row - 2 items */}
               <div className="flex justify-center mb-8">
-                <div className="grid grid-cols-2 gap-8 max-w-2xl">
+                <div className="grid md:grid-cols-2 gap-8 w-full md:max-w-2xl">
                   {data.service_advantage.advantage_list
                     .slice(0, 2)
                     .map((advantage, index) => (
