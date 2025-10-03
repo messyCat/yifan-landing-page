@@ -46,9 +46,9 @@ const AdvantageCard = React.memo(
           {advantage.description}
         </p>
         {advantage.id === "Authoritative" && authorizationCode && (
-          <div className="mt-2">
+          <div className="mt-1">
             <div
-              className={`${textColor} inline-flex items-center px-4 py-2 rounded-full text-xs font-medium`}
+              className={`${textColor} inline-flex items-center px-1 py-1 rounded-full text-xs font-medium`}
             >
               {authorizationCode}
             </div>

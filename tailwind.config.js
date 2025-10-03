@@ -112,5 +112,13 @@ module.exports = {
             },
         },
     },
+    safelist: [
+        "bg-orange-100",
+        "text-orange-700"
+    ],
     plugins: [],
 }
+
+/* 配置说明
+safelist：允许使用 Tailwind CSS 的类，即使它们不在您的 CSS 中定义。【避免动态className被treeshaking掉】
+*/
