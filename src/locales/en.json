@@ -30,7 +30,7 @@
       ]
     },
     "Footer": {
-      "copyright": "© 2025 YifanTech. All rights reserved"
+      "copyright_fmt": "© {{year_start_end}} YifanTech. All rights reserved"
     },
     "Hero": {
       "slogans": ["The Partner for All", "All for the Future!"],

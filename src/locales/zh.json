@@ -30,7 +30,7 @@
       ]
     },
     "Footer": {
-      "copyright": "© 2024 译帆科技. 保留所有权利。"
+      "copyright_fmt": "© {{year_start_end}} 译帆科技. 保留所有权利。"
     },
     "Hero": {
       "slogans": ["译路同行", "共赢未来"],
