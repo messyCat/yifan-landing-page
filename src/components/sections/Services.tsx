@@ -112,23 +112,21 @@ export default function Services({ data }: ServicesProps) {
               </p>
             </div>
 
-            <div>
+            <div className="flex flex-col items-center">
               {/* First row - 2 items */}
-              <div className="flex justify-center mb-8">
-                <div className="grid md:grid-cols-2 gap-8 w-full md:max-w-2xl">
-                  {data.service_advantage.advantage_list
-                    .slice(0, 2)
-                    .map((advantage, index) => (
-                      <AdvantageCard
-                        key={index + advantage.id}
-                        advantage={advantage}
-                        index={index}
-                        authorizationCode={
-                          data.service_advantage.authorization_code
-                        }
-                      />
-                    ))}
-                </div>
+              <div className="grid md:grid-cols-2 gap-8 mb-8 w-full md:max-w-3xl">
+                {data.service_advantage.advantage_list
+                  .slice(0, 2)
+                  .map((advantage, index) => (
+                    <AdvantageCard
+                      key={index + advantage.id}
+                      advantage={advantage}
+                      index={index}
+                      authorizationCode={
+                        data.service_advantage.authorization_code
+                      }
+                    />
+                  ))}
               </div>
 
               {/* Second row - 3 items */}

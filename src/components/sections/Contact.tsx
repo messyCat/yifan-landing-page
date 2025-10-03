@@ -1,10 +1,4 @@
-import React from "react";
-import { Card, CardContent, CardHeader, CardTitle } from "../ui/card";
-import { Button } from "../ui/button";
-import { Input } from "../ui/input";
-import { Textarea } from "../ui/textarea";
-import { Label } from "../ui/label";
-import { MapPin, Phone, Mail, CheckCircle } from "lucide-react";
+import { CheckCircle } from "lucide-react";
 import { DynamicIcon } from "../ui/dynamic-icon";
 import { ImageWithFallback } from "../ui/image-with-fallback";
 interface ContactProps {
@@ -43,7 +37,7 @@ export default function Contact({ data }: ContactProps) {
 
           {/* Right: Contact Information */}
           {data.wechat_infomation && (
-            <div className="bg-white/10 backdrop-blur-sm rounded-3xl p-8 md:p-12 border border-white/20">
+            <div className="bg-white/10 backdrop-blur-sm rounded-3xl p-8 md:p-12 border border-white/20 space-y-4">
               <div className="text-center space-y-6">
                 {/* Title */}
                 <div>
@@ -65,7 +59,7 @@ export default function Contact({ data }: ContactProps) {
                 </div>
 
                 {/* WeChat ID */}
-                <div className="p-3 bg-white/20 rounded-xl mb-4">
+                <div className="p-3 bg-white/20 rounded-xl">
                   <p className="text-sm font-medium">
                     {data.wechat_infomation.name_prefix +
                       data.wechat_infomation.name}

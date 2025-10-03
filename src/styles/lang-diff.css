@@ -24,7 +24,7 @@ body.lang-zh #hero h1>div{
     margin-bottom: calc(var(--spacing) * 5);
 }
 
-@media (min-width: 768px) {
+@media (min-width: 48rem) {
   body.lang-zh #hero h1 {
     font-size: var(--text-7xl); /* 桌面端：text-7xl */
     line-height: var(--text-7xl--line-height);
