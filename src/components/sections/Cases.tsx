@@ -1,4 +1,4 @@
-import React, { useState, useMemo } from "react";
+import React, { useState, useMemo, memo } from "react";
 import { useTranslation } from "react-i18next";
 import { ImageWithFallback } from "../ui/image-with-fallback";
 import { useImagePreloader } from "../../hooks/useImagePreloader";
@@ -10,6 +10,60 @@ interface CasesProps {
   data: any;
 }
 
+// 行业数据类型定义
+interface Industry {
+  id: string;
+  name: string;
+  title: string;
+  description: string;
+  image?: string;
+  clients?: Array<{ name: string }>;
+}
+
+// 优化的图片显示组件，使用 memo 避免不必要的重新渲染
+const IndustryImage = memo<{
+  industries: Industry[];
+  selectedIndustry: string;
+  isImageLoaded: (url: string) => boolean;
+}>(({ industries, selectedIndustry, isImageLoaded }) => {
+  debugLog.componentState("🖼️ [IndustryImage] 组件渲染", {
+    selectedIndustry,
+    totalIndustries: industries.length,
+  });
+
+  return (
+    <div className="relative h-64 lg:h-full min-h-[400px]">
+      {industries.map((industry: Industry) => {
+        const isSelected = industry.id === selectedIndustry;
+
+        if (!industry.image) return null;
+
+        return (
+          <div
+            key={industry.id}
+            className={`absolute inset-0 transition-opacity duration-300 ${
+              isSelected ? "opacity-100 z-10" : "opacity-0 z-0"
+            }`}
+          >
+            <ImageWithFallback
+              src={industry.image}
+              alt={industry.name}
+              className="w-full h-full object-cover"
+              // 预加载所有图片，但只显示当前选中的
+              loading={isSelected ? "eager" : "lazy"}
+            />
+          </div>
+        );
+      })}
+
+      {/* 渐变遮罩 */}
+      <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent z-20"></div>
+    </div>
+  );
+});
+
+IndustryImage.displayName = "IndustryImage";
+
 export default function Cases({ data }: CasesProps) {
   const { t } = useTranslation();
   const [selectedIndustry, setSelectedIndustry] = useState("automotive");
@@ -17,7 +71,7 @@ export default function Cases({ data }: CasesProps) {
   // 使用 Intersection Observer 监测组件是否即将进入视口
   const { elementRef, hasIntersected } = useIntersectionObserver({
     threshold: 0.1,
-    rootMargin: "300px", // 提前300px开始预加载
+    rootMargin: "400px", // 提前300px开始预加载
   });
 
   // 收集所有行业的图片URLs用于预加载
@@ -44,8 +98,8 @@ export default function Cases({ data }: CasesProps) {
     }
   );
 
-  const currentIndustry =
-    data.industries.find((ind) => ind.id === selectedIndustry) ||
+  const currentIndustry: Industry =
+    data.industries.find((ind: Industry) => ind.id === selectedIndustry) ||
     data.industries[0];
 
   // 监控预加载状态变化
@@ -74,14 +128,16 @@ export default function Cases({ data }: CasesProps) {
 
         {/* Industry Tabs */}
         <div className="flex flex-wrap justify-center gap-3 mb-12">
-          {data.industries.map((industry) => (
+          {data.industries.map((industry: Industry) => (
             <button
               key={industry.id}
               onClick={() => {
                 debugLog.componentState("🔄 [Cases组件] 切换行业:", {
                   from: selectedIndustry,
                   to: industry.id,
-                  imageLoaded: isImageLoaded(industry.image),
+                  imageLoaded: industry.image
+                    ? isImageLoaded(industry.image)
+                    : false,
                 });
                 setSelectedIndustry(industry.id);
 
@@ -127,16 +183,18 @@ export default function Cases({ data }: CasesProps) {
                     {data.partners}
                   </h4>
                   <div className="grid grid-cols-2 gap-4">
-                    {currentIndustry.clients.map((client, index) => (
-                      <div
-                        key={index}
-                        className="bg-gray-50 rounded-xl p-4 text-center"
-                      >
-                        <div className="text-base font-medium text-gray-800">
-                          {client.name}
+                    {currentIndustry.clients.map(
+                      (client: { name: string }, index: number) => (
+                        <div
+                          key={index}
+                          className="bg-gray-50 rounded-xl p-4 text-center"
+                        >
+                          <div className="text-base font-medium text-gray-800">
+                            {client.name}
+                          </div>
                         </div>
-                      </div>
-                    ))}
+                      )
+                    )}
                   </div>
                 </div>
               )}
@@ -149,74 +207,11 @@ export default function Cases({ data }: CasesProps) {
             </div>
 
             {/* Image Side */}
-            <div className="relative h-64 lg:h-full min-h-[400px]">
-              {currentIndustry.image && (
-                <div className="relative w-full h-full">
-                  <ImageWithFallback
-                    src={currentIndustry.image}
-                    alt={currentIndustry.name}
-                    className={`absolute inset-0 w-full h-full object-cover transition-opacity duration-300 ${
-                      isImageLoaded(currentIndustry.image)
-                        ? "opacity-100"
-                        : "opacity-90"
-                    }`}
-                    /* onLoad={(event) => {
-                      const preloadedImg = getPreloadedImage(
-                        currentIndustry.image
-                      );
-                      const img = event.target as HTMLImageElement;
-                      const wasPreloaded = !!preloadedImg;
-
-                      // 检查是否来自缓存（通过加载时间判断）
-                      const loadStartTime = performance.now();
-                      const isFromCache = img.complete && img.naturalWidth > 0;
-
-                      debugLog.componentState(
-                        "🖼️ [图片显示] 图片在页面上显示:",
-                        {
-                          image: currentIndustry.image,
-                          wasPreloaded,
-                          isFromCache,
-                          loadSource: wasPreloaded
-                            ? "预加载缓存"
-                            : isFromCache
-                            ? "浏览器缓存"
-                            : "重新下载",
-                          industry: currentIndustry.name,
-                          imageDimensions: `${img.naturalWidth}x${img.naturalHeight}`,
-                          complete: img.complete,
-                        }
-                      );
-
-                      // 如果没有使用预加载缓存，警告用户
-                      if (!wasPreloaded) {
-                        debugLog.warn(
-                          "⚠️ [性能警告] 图片未从预加载缓存加载，可能影响用户体验"
-                        );
-                      }
-                    }} */
-                  />
-                  {/* 预加载状态指示器（Debug模式下可见） */}
-                  {/* {debugConfig.enabled &&
-                    debugConfig.imagePreload &&
-                    isPreloading &&
-                    !isImageLoaded(currentIndustry.image) && (
-                      <div className="absolute top-2 right-2 w-3 h-3 bg-blue-500 rounded-full animate-pulse opacity-50">
-                        <div className="absolute inset-0 w-full h-full bg-blue-400 rounded-full animate-ping"></div>
-                      </div>
-                    )} */}
-                  {/* 预加载成功指示器（Debug模式下可见） */}
-                  {/* {debugConfig.enabled &&
-                    debugConfig.imagePreload &&
-                    isImageLoaded(currentIndustry.image) && (
-                      <div className="absolute top-2 right-2 w-3 h-3 bg-green-500 rounded-full opacity-70">
-                        <div className="absolute inset-0.5 w-2 h-2 bg-white rounded-full"></div>
-                      </div>
-                    )} */}
-                </div>
-              )}
-              <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent"></div>
-            </div>
+            <IndustryImage
+              industries={data.industries}
+              selectedIndustry={selectedIndustry}
+              isImageLoaded={isImageLoaded}
+            />
           </div>
         </div>
       </div>
