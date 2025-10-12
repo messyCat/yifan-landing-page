@@ -167,7 +167,7 @@
           "id": "internet",
           "title": "科技平台ESG传播",
           "description": "为互联网巨头提供ESG报告和可持续发展传播服务，专注于数字责任、数据隐私和跨国际市场的平台治理。",
-          "image": "images/cases/industries/internet.jpg",
+          "image": "images/cases/industries/internet.jpeg",
           "clients": [
             {
               "name": "百度"
@@ -179,7 +179,7 @@
           "id": "automotive",
           "title": "汽车可持续发展传播",
           "description": "协助汽车制造商在全球市场传播其可持续发展举措、碳中和目标和供应链责任。2023年\"理想汽车\"MSCI ESG评级拿到新能源汽车行业唯一个AAA评级。",
-          "image": "images/cases/industries/automotive.jpg",
+          "image": "images/cases/industries/automotive.jpeg",
           "clients": [
             {
               "name": "理想汽车"
@@ -191,7 +191,7 @@
           "id": "consumer_goods",
           "title": "消费品行业可持续发展传播",
           "description": "支持消费品品牌在全球市场建立负责任的供应链形象，重点传播绿色生产、包装减塑和公平贸易等实践，助力企业在ESG/CSR报告中展现社会与环境价值。",
-          "image": "images/cases/industries/consumer-goods.jpg",
+          "image": "images/cases/industries/consumer-goods.jpeg",
           "clients": [
             {
               "name": "重庆啤酒"
@@ -209,7 +209,7 @@
           "id": "healthcare",
           "title": "医疗健康行业ESG传播",
           "description": "为医疗企业提供ESG报告和责任传播服务，涵盖医药研发透明度、患者权益保护、可及性与公平性，强化行业在社会责任和公共健康领域的影响力。",
-          "image": "images/cases/industries/medical.jpg",
+          "image": "images/cases/industries/medical.jpeg",
           "clients": [
             {
               "name": "荣昌生物"
@@ -230,7 +230,7 @@
           "id": "education",
           "title": "教育行业社会责任传播",
           "description": "协助教育机构展示其在教育公平、数字化学习和人才培养方面的责任举措，通过ESG/CSR报告传递教育对社会可持续发展的贡献。",
-          "image": "images/cases/industries/education.jpg",
+          "image": "images/cases/industries/education.jpeg",
           "clients": [
             {
               "name": "港科大（广州）"
@@ -242,7 +242,7 @@
           "id": "consulting",
           "title": "咨询行业责任传播",
           "description": "为咨询与专业服务机构打造ESG/CSR传播方案，突出其在绿色转型、企业责任管理和客户可持续战略支持上的价值。",
-          "image": "images/cases/industries/consulting.jpg",
+          "image": "images/cases/industries/consulting.jpeg",
           "clients": [
             {
               "name": "安永"
@@ -254,7 +254,7 @@
           "id": "real_estate",
           "title": "房地产行业ESG传播",
           "description": "支持房地产企业在绿色建筑、低碳运营和社区共建等维度进行透明披露，提升企业ESG/CSR报告在国际投资者和社会公众中的可信度。",
-          "image": "images/cases/industries/real-estate.jpg",
+          "image": "images/cases/industries/real-estate.jpeg",
           "clients": [
             {
               "name": "龙地"
@@ -266,7 +266,7 @@
           "id": "energy",
           "title": "能源行业可持续发展传播",
           "description": "协助能源企业展示其在减排、清洁能源转型和能源安全保障方面的战略与成果，打造兼顾经济与环境责任的ESG/CSR传播体系。",
-          "image": "images/cases/industries/energy.jpg",
+          "image": "images/cases/industries/energy.jpeg",
           "clients": [
             {
               "name": "新奥能源"
@@ -281,7 +281,7 @@
           "id": "industrial",
           "title": "制造业ESG、工业企业可持续传播",
           "description": "为制造业客户提供ESG/CSR报告和传播服务，聚焦绿色工艺、智能制造与员工福祉，强化企业在全球可持续价值链中的竞争力。支持工业企业披露其在节能减排、循环经济和技术创新上的责任举措，帮助其ESG/CSR报告在国际市场中传递长期价值。协助原材料企业在资源利用、环境保护和供应链合规方面建立责任形象，通过ESG/CSR报告彰显其在全球产业链的可持续承诺。",
-          "image": "images/cases/industries/industry.jpg",
+          "image": "images/cases/industries/industry.jpeg",
           "clients": [
             {
               "name": "中国中铝"
@@ -322,7 +322,7 @@
         "desc": "扫描二维码添加我们的微信，享受即时沟通服务。我们随时为您的翻译需求提供专业帮助。",
         "name_prefix": "微信号：",
         "name": "Fiona",
-        "qr_code_image": "images/contact/wechat.png",
+        "qr_code_image": "images/contact/wechat.jpg",
         "features": ["即时报价咨询", "文件分享与协作", "实时项目进度更新"]
       }
     }

@@ -167,7 +167,7 @@
           "name": "Internet",
           "title": "ESG Communication for Tech Platforms",
           "description": "Providing ESG reporting and sustainability communication services for internet giants, with a focus on digital responsibility, data privacy, and platform governance across international markets.",
-          "image": "images/cases/industries/internet.jpg",
+          "image": "images/cases/industries/internet.jpeg",
           "clients": [
             {
               "name": "Baidu"
@@ -179,7 +179,7 @@
           "name": "Automotive",
           "title": "Sustainability Communication for the Automotive Industry",
           "description": "Supporting automotive manufacturers in communicating their sustainability initiatives, carbon neutrality goals, and supply chain responsibility in global markets. In 2023, 'Li Auto' received the only AAA MSCI ESG rating among new energy vehicle companies.",
-          "image": "images/cases/industries/automotive.jpg",
+          "image": "images/cases/industries/automotive.jpeg",
           "clients": [
             {
               "name": "Li Auto"
@@ -191,7 +191,7 @@
           "name": "Consumer Goods",
           "title": "Sustainability Communication for the Consumer Goods Industry",
           "description": "Helping consumer brands build a responsible supply chain image in global markets, with a focus on green manufacturing, plastic reduction in packaging, and fair trade practices, enabling companies to showcase social and environmental value in their ESG/CSR reports.",
-          "image": "images/cases/industries/consumer-goods.jpg",
+          "image": "images/cases/industries/consumer-goods.jpeg",
           "clients": [
             {
               "name": "Chongqing Beer"
@@ -209,7 +209,7 @@
           "name": "Healthcare",
           "title": "ESG Communication in the Healthcare Industry",
           "description": "Providing ESG reporting and responsibility communication services for healthcare companies, covering pharmaceutical R&D transparency, patient rights protection, accessibility and equity, and strengthening the industry’s influence in social responsibility and public health.",
-          "image": "images/cases/industries/medical.jpg",
+          "image": "images/cases/industries/medical.jpeg",
           "clients": [
             {
               "name": "RemeGen"
@@ -230,7 +230,7 @@
           "name": "Education",
           "title": "Social Responsibility Communication in the Education Industry",
           "description": "Supporting educational institutions in showcasing their responsibility initiatives in educational equity, digital learning, and talent cultivation, and highlighting education’s contribution to sustainable social development through ESG/CSR reports.",
-          "image": "images/cases/industries/education.jpg",
+          "image": "images/cases/industries/education.jpeg",
           "clients": [
             {
               "name": "HKUST (Guangzhou)"
@@ -242,7 +242,7 @@
           "name": "Consulting",
           "title": "Responsibility Communication in the Consulting Industry",
           "description": "Designing ESG/CSR communication strategies for consulting and professional service firms, emphasizing their value in green transition, corporate responsibility management, and client sustainability strategy support.",
-          "image": "images/cases/industries/consulting.jpg",
+          "image": "images/cases/industries/consulting.jpeg",
           "clients": [
             {
               "name": "EY"
@@ -254,7 +254,7 @@
           "name": "Real Estate",
           "title": "ESG Communication in the Real Estate Industry",
           "description": "Supporting real estate companies in transparent disclosure of green building, low-carbon operations, and community co-creation, enhancing the credibility of their ESG/CSR reports among international investors and the public.",
-          "image": "images/cases/industries/real-estate.jpg",
+          "image": "images/cases/industries/real-estate.jpeg",
           "clients": [
             {
               "name": "Longdi"
@@ -266,7 +266,7 @@
           "name": "Energy",
           "title": "Sustainability Communication in the Energy Industry",
           "description": "Helping energy companies demonstrate their strategies and achievements in emission reduction, clean energy transition, and energy security, building an ESG/CSR communication framework that balances economic and environmental responsibility.",
-          "image": "images/cases/industries/energy.jpg",
+          "image": "images/cases/industries/energy.jpeg",
           "clients": [
             {
               "name": "ENN Energy"
@@ -281,7 +281,7 @@
           "name": "Manufacturing / Industry / Raw Materials",
           "title": "ESG and Sustainability Communication for Manufacturing, Industrial, and Raw Materials Companies",
           "description": "Providing ESG/CSR reporting and communication services for manufacturing clients, focusing on green processes, smart manufacturing, and employee well-being to strengthen competitiveness in the global sustainable value chain. Supporting industrial companies in disclosing their initiatives on energy conservation, emission reduction, circular economy, and technological innovation to convey long-term value in ESG/CSR reports on the international stage. Assisting raw materials enterprises in building a responsible image in resource utilization, environmental protection, and supply chain compliance, demonstrating their sustainable commitments in the global industrial chain through ESG/CSR reporting.",
-          "image": "images/cases/industries/industry.jpg",
+          "image": "images/cases/industries/industry.jpeg",
           "clients": [
             {
               "name": "CHALCO"
@@ -322,7 +322,7 @@
         "desc": "Scan the QR code to add us on WeChat for instant communication. We're here to help with all your translation needs.",
         "name_prefix": "WeChat ID：",
         "name": "Fiona",
-        "qr_code_image": "images/contact/wechat.png",
+        "qr_code_image": "images/contact/wechat.jpg",
         "features": [
           "Instant quote requests",
           "File sharing & collaboration",

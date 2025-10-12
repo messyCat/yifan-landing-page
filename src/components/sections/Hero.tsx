@@ -13,7 +13,7 @@ export default function Hero({ data }: HeroProps) {
     >
       <div
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-        style={{ backgroundImage: `url('images/intro-bg.jpg')` }}
+        style={{ backgroundImage: `url('images/intro-bg.jpeg')` }}
       />
       <div className="relative z-10 text-center text-white px-4 sm:px-6 lg:px-8 max-w-4xl mx-auto">
         <h1 className="text-4xl md:text-6xl font-bold mb-6">
