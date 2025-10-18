@@ -13,10 +13,14 @@ body.lang-en {
 
 /* 具体组件的多语言样式示例 */
 /* HERO 组件 */
+body.lang-zh #hero {
+  @apply tracking-widest; /* 字体加宽 */
+  @apply leading-wide;
+}
+
 body.lang-zh #hero h1 {
   /* 中文标题字体加大一号：从 text-4xl/text-6xl 提升到 text-5xl/text-7xl */
   font-size: var(--text-5xl); /* 移动端：text-5xl */
-  line-height: var(--text-5xl--line-height);
 }
 
 body.lang-zh #hero h1>div{
@@ -26,8 +30,7 @@ body.lang-zh #hero h1>div{
 
 @media (min-width: 48rem) {
   body.lang-zh #hero h1 {
-    font-size: var(--text-7xl); /* 桌面端：text-7xl */
-    line-height: var(--text-7xl--line-height);
+    font-size: var(--text-9xl); /* 桌面端：text-7xl */
   }
 }
 

@@ -89,11 +89,25 @@ module.exports = {
             transitionDuration: {
                 '50': '50ms',
             },
+            // 自定义 letter-spacing
+            letterSpacing: {
+                'tighter': '-0.2em',
+                'tight': '-0.1em',
+                'normal': '0em',
+                'wide': '0.1em',
+                'wider': '0.2em',
+                'widest': '0.4em',
+            },
             // 自定义容器尺寸
             maxWidth: {
                 '3xl': '48rem',
                 '4xl': '56rem',
                 '7xl': '80rem',
+            },
+            // 自定义 line-height
+            lineHeight: {
+                'normal': '1',
+                'wide': '1.05',
             },
             // Chart 颜色 - 保留现有图表配色
             keyframes: {
