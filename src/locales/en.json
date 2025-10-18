@@ -39,11 +39,11 @@
     },
     "About": {
       "title": "About YifanTech",
-      "brief": "Your trusted partner in professional language services",
+      "brief": "Your Trusted Global Communication Partner",
       "description_list": [
-        "Headquartered in Beijing, Beijing Yifan Science and Information Consulting Co,.Ltd is a professional provider of translation, interpretation, language consulting and international communication services, which include proofreading, editing, localization and equipment leasing.",
-        "We boast a broad network of translators, interpreters, proofreaders, and language experts, totaling about 120, who have graduated from prestigious universities in China and beyond. Our services cover about 30 languages, enabling us to meet wide-ranging language demands of our Chinese and overseas clients.",
-        "By virtue of our excellent service quality, we are honored to provide services to listed companies and big names across over 30 sectors."
+        "Headquartered in Beijing, YifanTech delivers expert language solutions tailored for businesses navigating international markets. Our full range of services includes translation, interpretation, localization, proofreading, editing, and cultural consulting, designed to bridge communication gaps seamlessly.",
+        "We proudly collaborate with a curated team of over 120 elite linguists, graduates from top universities worldwide, fluent in more than 30 languages. This expertise allows us to meet the diverse needs of both international clients entering China and Chinese companies expanding globally.",
+        "Our dedication to quality and confidentiality has earned us trust from leading corporations and listed companies across over 30 industries, making YifanTech a reliable partner for your global ambitions."
       ],
       "highlight_stats": [
         {
@@ -69,11 +69,11 @@
           "class_name": "bg-orange-100 text-orange-700"
         },
         {
-          "keyword": "Efficient Project Delivery",
+          "keyword": "Timely Project Delivery",
           "class_name": "bg-blue-100 text-blue-700"
         },
         {
-          "keyword": "High-Quality Service",
+          "keyword": "Superior Service Excellence",
           "class_name": "bg-orange-100 text-orange-700"
         }
       ]
@@ -84,63 +84,64 @@
       "main_service_list": [
         {
           "title": "Translation",
-          "description": "We Provide industry-specific translation solutions, including but not limited to Notary, Legal, Academic, Energy, Finance, Internet, Biomedical, Machinery Manufacturing, Entertainment and Tourism.",
+          "description": "We deliver precision-crafted translation solutions tailored to the specific terminology and regulatory requirements of your industry. Our expertise covers a wide range of sectors, including legal and notary services, finance, energy, biomedical sciences, machinery manufacturing, IT and digital media, as well as entertainment and tourism. We ensure your message is not only accurate, but also perfectly suited for your target audience.",
           "icon": "Languages"
         },
         {
           "title": "Interpreting",
-          "description": "We Provide high-quality interpreting services, including consecutive interpreting, simultaneous interpreting, escort interpreting, and whisper interpreting.",
+          "description": "We facilitate seamless communication with professional interpreting services tailored to any setting. Whether you need simultaneous, consecutive, escort, or whispered interpreting, our experts ensure your message is delivered accurately and effectively.",
           "icon": "Mic"
         },
         {
           "title": "Language Consulting and International Communication",
-          "description": "We Provide language consultation and international communication services to our global clients, covering localized communication strategies, brand building and website design.",
+          "description": "Go beyond translation and ensure your brand's voice resonates in every market. Our consulting service provides the cultural insights and strategic guidance you need to adapt your messaging, strengthen your brand identity, and optimize your digital content for a global audience. We help you navigate cultural nuances to build trust and forge genuine connections.",
           "icon": "Globe"
         }
       ],
       "service_advantage": {
         "title": "Why Choose Us?",
-        "brief": "Five core advantages that earn us a leading position among language vendors",
+        "brief": "Your success in new markets depends on clarity and cultural precision. Here’s how we deliver it:",
         "authorization_code": "Beijing Municipal Public Security Bureau: No. 1101052455866",
         "advantage_list": [
           {
             "id": "Comprehensive",
-            "title": "Comprehensive",
-            "description": "Integrated service package including translation, interpreting, editing, DTP and localization",
+            "title": "End-to-End Solutions",
+            "description": "From initial translation and expert interpreting to desktop publishing (DTP) and full localization, we are your single partner for every step. This integrated approach ensures brand consistency, saves you time, and simplifies your workflow.",
             "icon": "CheckCircle"
           },
           {
             "id": "Authoritative",
-            "title": "Authoritative",
-            "description": "Certified translation services with a specialized translation seal from Beijing Municipal Public Security Bureau",
+            "title": "Officially Certified Accuracy",
+            "description": "For your most critical legal and official documents, we provide certified translations bearing the official seal of the Beijing Municipal Public Security Bureau (No. 1101052455866). This guarantees absolute acceptance by Chinese authorities, giving you complete peace of mind.",
             "icon": "Award"
           },
           {
             "id": "Professional",
-            "title": "Professional",
-            "description": "In strict compliance with codes of conduct and relevant industry quality standards",
+            "title": "Rigorous Quality Assurance",
+            "description": "We don't just meet standards; we exceed them. Our process is built on a robust framework of industry best practices, leveraging a suite of advanced tools—including CAT, QA, and OCR—for unmatched terminological consistency and accuracy in every project.",
             "icon": "Users"
           },
           {
             "id": "Efficient",
-            "title": "Efficient",
-            "description": "Dedicated project management in fast response to customer requirements",
+            "title": "Efficiency by Design",
+            "description": "Your time is critical. That’s why a dedicated project manager acts as your single point of contact, ensuring rapid response times and streamlined communication. We are built to deliver high-quality work on time, every time.",
             "icon": "Zap"
           },
           {
             "id": "High-Quality",
-            "title": "High-Quality",
-            "description": "Strict quality monitoring for projects by deploying alignment tools, OCR tools, QA tools, DTP software, engineering processing software, and CAT tools",
+            "title": "Commitment to Excellence",
+            "description": "Our quality is proactive, not passive. We deploy a multi-stage checking system using alignment, engineering, and DTP software to meticulously monitor every project detail. This relentless focus on quality is what makes our final deliverable not just a translation, but a polished asset.",
             "icon": "Trophy"
           }
         ]
       }
     },
     "Expertise": {
-      "title": "ESG, CSR and Sustainability Reports Expertise",
+      "title": "ESG & Sustainability Reporting",
       "description_list": [
-        "We specialize in the translation of Environmental, Social, and Governance (ESG) reports, Corporate Social Responsibility (CSR) reports, and Sustainability reports. Our translators are well-versed in the focus areas of various regulatory bodies and rating agencies regarding corporate sustainability performance. By selecting terminology in line with relevant disclosure requirements, we ensure accuracy and professionalism, helping companies achieve comprehensive and compliant disclosure in these fields.",
-        "Culture is the foremost driver of influence. Through our professional translation services, we are committed to enabling companies to excel in sustainability disclosure, helping them set industry benchmarks and build lasting influence within their sector."
+        "In a world where sustainability has become a key driver of business success, our expertise lies in translating the intricate language of sustainability into compelling narratives. Specializing in ESG and CSR reporting, we serve as your partner in full impact disclosures, ensuring your story resonates with clarity and authority.",
+        "Our linguists are not just translators; they are specialists who navigate the complexities of global regulatory frameworks and expectations set by leading rating agencies such as MSCI and SASB. We meticulously align your terminology with recognized disclosure standards like GRI and TCFD, guaranteeing not only linguistic accuracy but also strategic compliance.",
+        "In today's competitive landscape, the narrative surrounding your sustainability efforts is integral to your influence and brand equity. We empower you to articulate this narrative with precision and credibility, helping you not only meet regulatory requirements but also exceed them, establishing your organization as a leader in your industry."
       ],
       "highlight_stats": [
         {
@@ -158,15 +159,15 @@
       ]
     },
     "Cases": {
-      "title": "Trusted by Clients Across Multiple Industries",
-      "brief": "Industry-Leading ESG solutions, specialized ESG translation and communication services tailored for different industries",
-      "partners": "Featured Clients",
+      "title": "Your Sector-Specific ESG Communication Partner",
+      "brief": "We deliver industry-leading ESG translation and communications, precision-engineered for the unique challenges of your sector. Chosen by forward-thinking companies for our reliable, customized approach, we provide the strategic support you need to elevate your sustainability narrative and build stakeholder trust.",
+      "partners": "Our Valued Partner",
       "industries": [
         {
           "id": "internet",
           "name": "Internet",
-          "title": "ESG Communication for Tech Platforms",
-          "description": "Providing ESG reporting and sustainability communication services for internet giants, with a focus on digital responsibility, data privacy, and platform governance across international markets.",
+          "title": "ESG for the Digital Frontier",
+          "description": "We provide comprehensive ESG reporting and sustainability communication tailored for global internet leaders. We translate the complex landscape of digital responsibility, data privacy, and platform governance into authoritative narratives that not only ensure your message resonates internationally but also transform these operational necessities into a definitive competitive advantage.",
           "image": "images/cases/industries/internet.jpeg",
           "clients": [
             {
@@ -177,8 +178,8 @@
         {
           "id": "automotive",
           "name": "Automotive",
-          "title": "Sustainability Communication for the Automotive Industry",
-          "description": "Supporting automotive manufacturers in communicating their sustainability initiatives, carbon neutrality goals, and supply chain responsibility in global markets. In 2023, 'Li Auto' received the only AAA MSCI ESG rating among new energy vehicle companies.",
+          "title": "Automotive Sustainability",
+          "description": "We empower automakers to transform sustainability data into compelling global narratives. Our expertise articulates everything from carbon-neutral roadmaps to ethical supply chains, building the market credibility that secures investment and leadership. This strategic approach was integral in guiding our partner, Li Auto, to achieve the industry-leading MSCI ESG AAA rating—setting a new benchmark for the entire NEV sector in China.",
           "image": "images/cases/industries/automotive.jpeg",
           "clients": [
             {
@@ -189,8 +190,8 @@
         {
           "id": "consumer_goods",
           "name": "Consumer Goods",
-          "title": "Sustainability Communication for the Consumer Goods Industry",
-          "description": "Helping consumer brands build a responsible supply chain image in global markets, with a focus on green manufacturing, plastic reduction in packaging, and fair trade practices, enabling companies to showcase social and environmental value in their ESG/CSR reports.",
+          "title": "Building Trusted Brands, from Source to Shelf",
+          "description": "We partner with consumer product brands to build a powerful and authentic narrative of responsible sourcing for the global market. We help you communicate tangible commitments—from green production and packaging plastic reduction to fair trade—transforming them into compelling ESG stories that strengthen brand equity, build consumer trust, and drive market differentiation.",
           "image": "images/cases/industries/consumer-goods.jpeg",
           "clients": [
             {
@@ -207,8 +208,8 @@
         {
           "id": "healthcare",
           "name": "Healthcare",
-          "title": "ESG Communication in the Healthcare Industry",
-          "description": "Providing ESG reporting and responsibility communication services for healthcare companies, covering pharmaceutical R&D transparency, patient rights protection, accessibility and equity, and strengthening the industry’s influence in social responsibility and public health.",
+          "title": "Communicating Health, Responsibility, and Trust",
+          "description": "We provide comprehensive ESG reporting and communication services tailored for medical and biopharma companies. We translate your commitment to transparent R&D, patient rights, and health equity into a powerful narrative of integrity. This enhances your influence and, more importantly, builds the vital public trust and investor confidence that underpins leadership in global health.",
           "image": "images/cases/industries/medical.jpeg",
           "clients": [
             {
@@ -228,8 +229,8 @@
         {
           "id": "education",
           "name": "Education",
-          "title": "Social Responsibility Communication in the Education Industry",
-          "description": "Supporting educational institutions in showcasing their responsibility initiatives in educational equity, digital learning, and talent cultivation, and highlighting education’s contribution to sustainable social development through ESG/CSR reports.",
+          "title": "Educating for Impact: Communicating Your Institutional Legacy",
+          "description": "We assist forward-thinking educational institutions in showcasing their responsible initiatives in educational equity, digital learning, and talent development. We transform these commitments into a compelling ESG narrative that articulates your profound social impact, demonstrating how your work today is building a more sustainable and skilled society for tomorrow.",
           "image": "images/cases/industries/education.jpeg",
           "clients": [
             {
@@ -240,8 +241,8 @@
         {
           "id": "consulting",
           "name": "Consulting",
-          "title": "Responsibility Communication in the Consulting Industry",
-          "description": "Designing ESG/CSR communication strategies for consulting and professional service firms, emphasizing their value in green transition, corporate responsibility management, and client sustainability strategy support.",
+          "title": "Articulating the Advisor's Advantage",
+          "description": "We partner with leading consulting firms to codify and broadcast your ESG and CSR leadership. Our communication programs are designed to articulate your unique value in driving client green transformations, architecting responsible business frameworks, and delivering sustainable strategy—turning your advisory services into a definitive market advantage.",
           "image": "images/cases/industries/consulting.jpeg",
           "clients": [
             {
@@ -252,8 +253,8 @@
         {
           "id": "real_estate",
           "name": "Real Estate",
-          "title": "ESG Communication in the Real Estate Industry",
-          "description": "Supporting real estate companies in transparent disclosure of green building, low-carbon operations, and community co-creation, enhancing the credibility of their ESG/CSR reports among international investors and the public.",
+          "title": "Building Trust, Beyond Buildings",
+          "description": "We enable real estate companies to make transparent, compelling disclosures on green buildings, low-carbon operations, and community engagement. We go beyond reporting to transform your ESG performance into a credible narrative that builds trust with global investors and creates a tangible market advantage.",
           "image": "images/cases/industries/real-estate.jpeg",
           "clients": [
             {
@@ -264,8 +265,8 @@
         {
           "id": "energy",
           "name": "Energy",
-          "title": "Sustainability Communication in the Energy Industry",
-          "description": "Helping energy companies demonstrate their strategies and achievements in emission reduction, clean energy transition, and energy security, building an ESG/CSR communication framework that balances economic and environmental responsibility.",
+          "title": "Articulating the Energy Transition",
+          "description": "We assist energy companies in showcasing their strategies and achievements in emission reduction, clean energy transition, and energy security. Our goal is to build a robust ESG/CSR communication system that demonstrates how the economic and environmental responsibilities are integrated, positioning your company as an indispensable leader in the new energy landscape.",
           "image": "images/cases/industries/energy.jpeg",
           "clients": [
             {
@@ -279,8 +280,8 @@
         {
           "id": "industrial",
           "name": "Manufacturing / Industry / Raw Materials",
-          "title": "ESG and Sustainability Communication for Manufacturing, Industrial, and Raw Materials Companies",
-          "description": "Providing ESG/CSR reporting and communication services for manufacturing clients, focusing on green processes, smart manufacturing, and employee well-being to strengthen competitiveness in the global sustainable value chain. Supporting industrial companies in disclosing their initiatives on energy conservation, emission reduction, circular economy, and technological innovation to convey long-term value in ESG/CSR reports on the international stage. Assisting raw materials enterprises in building a responsible image in resource utilization, environmental protection, and supply chain compliance, demonstrating their sustainable commitments in the global industrial chain through ESG/CSR reporting.",
+          "title": "Engineering a Sustainable Future: ESG for Industrial Leaders",
+          "description": "We provide comprehensive ESG and sustainability communication services for the entire industrial sector—from manufacturing and processing to raw materials. We help you articulate your strategic advancements in green processes, smart manufacturing, and circular economy initiatives, transforming them into a compelling narrative of operational excellence and responsibility. Our expertise ensures your reports highlight commitment to employee well-being, supply chain integrity, and environmental stewardship, strengthening your competitiveness in the global sustainable value chain.",
           "image": "images/cases/industries/industry.jpeg",
           "clients": [
             {
