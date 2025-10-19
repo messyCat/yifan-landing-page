@@ -23,6 +23,14 @@ body.lang-zh #hero h1 {
   font-size: var(--text-5xl); /* 移动端：text-5xl */
 }
 
+body.lang-zh #hero p {
+  @apply tracking-wider; /* 描述字体加宽减少 */
+}
+
+body.lang-zh #hero a {
+  letter-spacing: initial;
+}
+
 body.lang-zh #hero h1>div{
     /* 3->5 */
     margin-bottom: calc(var(--spacing) * 5);
